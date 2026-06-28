@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { Github, Linkedin, Mail, Download, ArrowRight, MessageCircle } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, ArrowRight, MessageCircle, FileText } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { personalInfo, socialLinks, stats } from '../data/portfolio';
 import AnimatedCounter from './AnimatedCounter';
@@ -129,10 +129,9 @@ const Hero = () => {
               <RippleButton
                 href={personalInfo.resumeUrl}
                 variant="primary"
-                icon={<Download size={18} />}
-                download
+                icon={<FileText size={18} />}
               >
-                Download Resume
+                View Resume
               </RippleButton>
               <RippleButton
                 href="#projects"

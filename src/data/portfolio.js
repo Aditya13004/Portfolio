@@ -14,7 +14,7 @@ export const personalInfo = {
   email: 'wakalkaraditya@gmail.com',
   phone: '+91 7588662926',
   location: 'Pune, Maharashtra',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Aditya_Wakalkar_Resume.pdf',
   degree: 'BE Electronics & Telecommunication Engineering',
   cgpa: '7.45',
   college: 'D.Y. Patil College of Engineering, Akurdi',
@@ -34,6 +34,7 @@ export const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'Achievements', href: '#achievements' },
   { name: 'Certifications', href: '#certifications' },
+  { name: 'Resume', href: '/Aditya_Wakalkar_Resume.pdf', isExternal: true },
   { name: 'Contact', href: '#contact' },
 ];
 

@@ -76,7 +76,14 @@ const Navbar = () => {
               <motion.a
                 key={link.name}
                 href={link.href}
-                onClick={(e) => { e.preventDefault(); scrollTo(link.href); }}
+                target={link.isExternal ? '_blank' : undefined}
+                rel={link.isExternal ? 'noopener noreferrer' : undefined}
+                onClick={(e) => {
+                  if (!link.isExternal) {
+                    e.preventDefault();
+                    scrollTo(link.href);
+                  }
+                }}
                 className={`relative px-4 py-2 text-sm font-medium transition-colors duration-300 rounded-xl animated-underline ${
                   activeSection === link.href.replace('#', '')
                     ? 'text-primary'
@@ -136,7 +143,14 @@ const Navbar = () => {
                   <motion.a
                     key={link.name}
                     href={link.href}
-                    onClick={(e) => { e.preventDefault(); scrollTo(link.href); }}
+                    target={link.isExternal ? '_blank' : undefined}
+                    rel={link.isExternal ? 'noopener noreferrer' : undefined}
+                    onClick={(e) => {
+                      if (!link.isExternal) {
+                        e.preventDefault();
+                        scrollTo(link.href);
+                      }
+                    }}
                     initial={{ x: 50, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: i * 0.05, type: 'spring', stiffness: 200 }}

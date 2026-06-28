@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Mail, Phone, MapPin, Github, Linkedin, Download, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Download, ArrowRight, FileText } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 import RippleButton from './RippleButton';
 import { personalInfo, socialLinks } from '../data/portfolio';
@@ -139,8 +139,7 @@ const Contact = () => {
                 <RippleButton
                   href={personalInfo.resumeUrl}
                   variant="secondary"
-                  icon={<Download size={18} />}
-                  download
+                  icon={<FileText size={18} />}
                 >
                   View Resume
                 </RippleButton>
