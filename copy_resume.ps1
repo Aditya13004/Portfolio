@@ -1,5 +1,5 @@
-$src = "C:\Users\ADITYA\Downloads\Aditya_Wakalkar_New_Resume.pdf"
-$dest1 = "c:\Users\ADITYA\.gemini\antigravity-ide\scratch\portfolio\public\Aditya_Wakalkar_Resume.pdf"
+$src = "C:\Users\ADITYA\Downloads\Aditya_Wakalkar_CV.pdf"
+$dest1 = "c:\Users\ADITYA\.gemini\antigravity-ide\scratch\portfolio\public\Aditya_Wakalkar_CV.pdf"
 $dest2 = "c:\Users\ADITYA\.gemini\antigravity-ide\scratch\portfolio\public\resume.pdf"
 
 if (Test-Path $src) {

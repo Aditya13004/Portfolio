@@ -14,7 +14,7 @@ export const personalInfo = {
   email: 'wakalkaraditya@gmail.com',
   phone: '+91 7588662926',
   location: 'Pune, Maharashtra',
-  resumeUrl: '/Aditya_Wakalkar_Resume.pdf',
+  resumeUrl: '/Aditya_Wakalkar_CV.pdf',
   degree: 'BE Electronics & Telecommunication Engineering',
   cgpa: '7.45',
   college: 'D.Y. Patil College of Engineering, Akurdi',
@@ -34,7 +34,7 @@ export const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'Achievements', href: '#achievements' },
   { name: 'Certifications', href: '#certifications' },
-  { name: 'Resume', href: '/Aditya_Wakalkar_Resume.pdf', isExternal: true },
+  { name: 'Resume', href: '/Aditya_Wakalkar_CV.pdf', isExternal: true },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -140,6 +140,20 @@ export const projects = [
     date: 'Jan — Jun 2026',
     color: '#06B6D4',
     icon: 'HeartPulse',
+  },
+  {
+    id: 5,
+    title: 'MessFinder',
+    subtitle: 'Campus Mess Menus',
+    description: 'A platform to discover daily mess menus near your campus, helping students find the best meals effortlessly.',
+    image: '/projects/messfinder.png',
+    features: ['Daily Menus', 'Location Based', 'Campus Integration', 'Real-time Updates'],
+    tech: ['React', 'Vite', 'Node.js'],
+    liveUrl: 'https://messfinder.vip',
+    githubUrl: '',
+    date: 'Jul 2026',
+    color: '#F59E0B',
+    icon: 'MapPin',
   },
 ];
 
