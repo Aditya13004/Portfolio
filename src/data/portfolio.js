@@ -14,7 +14,7 @@ export const personalInfo = {
   email: 'wakalkaraditya@gmail.com',
   phone: '+91 7588662926',
   location: 'Pune, Maharashtra',
-  resumeUrl: '/Aditya_Wakalkar_CV.pdf',
+  resumeUrl: '/Aditya_Wakalkar_CV_new.pdf',
   degree: 'BE Electronics & Telecommunication Engineering',
   cgpa: '7.45',
   college: 'D.Y. Patil College of Engineering, Akurdi',
@@ -34,12 +34,12 @@ export const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'Achievements', href: '#achievements' },
   { name: 'Certifications', href: '#certifications' },
-  { name: 'Resume', href: '/Aditya_Wakalkar_CV.pdf', isExternal: true },
+  { name: 'Resume', href: '/Aditya_Wakalkar_CV_new.pdf', isExternal: true },
   { name: 'Contact', href: '#contact' },
 ];
 
 export const stats = [
-  { label: 'Major Projects', value: 4, suffix: '+' },
+  { label: 'Major Projects', value: 5, suffix: '+' },
   { label: 'Technologies', value: 10, suffix: '+' },
   { label: 'Certifications', value: 3, suffix: '' },
   { label: 'Achievements', value: 3, suffix: '' },
@@ -154,6 +154,20 @@ export const projects = [
     date: 'Jul 2026',
     color: '#F59E0B',
     icon: 'MapPin',
+  },
+  {
+    id: 6,
+    title: 'FreshCheck AI',
+    subtitle: 'Fruit Classification System',
+    description: 'AI-powered application to classify fresh vs. rotten fruits and evaluate their quality using deep learning.',
+    image: '/projects/freshcheck.png',
+    features: ['Fruit Classification', 'Quality Evaluation', 'Real-time API', 'Image Upload'],
+    tech: ['TensorFlow', 'FastAPI', 'OpenCV', 'JavaScript', 'Render'],
+    liveUrl: 'https://freshcheck-ai-kv3m.onrender.com/',
+    githubUrl: '',
+    date: 'Oct 2026',
+    color: '#EC4899',
+    icon: 'Leaf',
   },
 ];
 
